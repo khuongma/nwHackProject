@@ -6,7 +6,7 @@ import json
 
 
 
-ProductsNum = 5
+ProductsNum = 8
 
 
 start_time = time.time()
@@ -30,7 +30,7 @@ listProductURL = [] # URL
 pages = 100
 for page in range(1,pages):
     print("Begin Page: ", page)
-    source = requests.get(listProducts[ProductsNum]+str(page)).text #PRODUCTNUM!!!!!!!!!
+    source = requests.get(listProducts[ProductsNum]+str(page)).text #PRODUCTNUM
     soup = BeautifulSoup(source, 'lxml')
 
     airFresheners = soup.find(id='products')
@@ -75,28 +75,12 @@ for row_num in range(len(listProductURL)):
     
     dicProductNameDetail[list(dicProductNameDetail)[row_num]] = dicIngredients
 
-# for name, key in dicProductNameDetail.items():
-#     print("Name:", name)
-#     print("-----------------------------------------------------")
-#     print("Key:", key)
-#     print("|||||||||||||||||||||||||||||||||||||")
-#     print("|||||||||||||||||||||||||||||||||||||")
-
 
 dicProducts[list(dicProducts)[ProductsNum]] = dicProductNameDetail
 
-    # index = 1
-    # for name, key in dicProductNameDetail.items():
-    #     print(index, ". ", name, "||||||||", key)
-    #     print("------------------------------")
-    #     index = index + 1
+
 print("--- %s seconds ---" % (time.time() - start_time))
 
-
-# print("KITCHEN: ",dicProducts["Kitchen"])
-# print(" ")
-# for name, key in dicProducts.items():
-#     print("NAME: ",name)
 
 with open('product'+ str(ProductsNum) +'.txt', 'w') as file:
     file.write(json.dumps(dicProducts))
