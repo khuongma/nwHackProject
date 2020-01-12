@@ -1,6 +1,0 @@
-framework module immersive_reader_sdk {
-  umbrella header "immersive-reader-sdk-umbrella.h"
-
-  export *
-  module * { export * }
-}
