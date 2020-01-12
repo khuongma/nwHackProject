@@ -1,0 +1,1 @@
+_ate.track.config_resp({"approved":["ewg.org","0.0.0.0","www.ewg.org","www.healthychild.org","healthychild.org"],"subscription":{"active":true,"edition":"PRO","tier":"legacy","reducedBranding":false,"insightsEnabled":false},"customMessageTemplates":[]});
