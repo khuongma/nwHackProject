@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  nwHack3
+//  nwHack2020
 //
 //  Created by Minjae Shin on 2020-01-12.
 //  Copyright © 2020 Minjae Shin. All rights reserved.

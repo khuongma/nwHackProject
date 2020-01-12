@@ -22,10 +22,15 @@ struct ContentView: View {
           }) {
             Text("Choose photos")
           }
+            .padding()
+            .foregroundColor(.white)
+            .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
+            .cornerRadius(40)
+            
           image?.resizable()
-            .frame(width: 250, height: 200)
-            .clipShape(Circle())
-            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+            .frame(width: 300, height: 400)
+            .clipShape(Rectangle())
+            .overlay(Rectangle().stroke(Color.white, lineWidth: 4))
             .shadow(radius: 10)
         }
         if (showCaptureImageView) {
