@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qws-Gv-jyX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="fxb-Zw-4VM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qws-Gv-jyX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="4ni-D3-esf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rDU-Gc-eQ1" kind="relationship" relationship="rootViewController" id="aGe-7J-6cN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dvz-GF-cSK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="534"/>
+        </scene>
+        <!--ILScanner-->
+        <scene sceneID="FFe-hN-Mtx">
+            <objects>
+                <viewController id="rDU-Gc-eQ1" customClass="ViewController" customModule="nwHack2020_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IXo-3a-Biz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="T4t-pk-RZh">
+                                <rect key="frame" x="16" y="138" width="382" height="589"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cTh-Uf-9SH">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="589"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="589" id="IJt-Hn-m5z"/>
+                                        </constraints>
+                                        <mutableString key="text">Product -
+OxiClean Baby Stain Remover Spray
+
+
+Ingredients : concern -
+Acrylic polymer : biodegradation
+
+Achohol ethoxylates (C12-15) : acute aquatic toxicity, chronic aquatic toxicity
+Sodium polyacrylate : biodegradation
+
+Alcohol ethoxylates (C12) : damage to vision, general systemic/organ effects, skin irritation/allergies/damage
+
+Linear alkybenzene sulfonates : chronic aquatic toxicity, general systemic/organ effects, acute aquatic toxicity, developmental/endocrine/reproductive effects, skin irritation/allergies/damage, damage to vision
+
+Hydrogen peroxide : respiratory effects, skin irritation/allergies/damage
+
+Water : no concern</mutableString>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" shipmentTrackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zcm-te-H2x">
+                                <rect key="frame" x="16" y="757" width="382" height="55"/>
+                                <color key="backgroundColor" red="0.52658208963517106" green="0.7693973183631897" blue="0.56208721150664243" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="jJx-TS-0o9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Scan">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Aqt-ro-RAm">
+                                <rect key="frame" x="16" y="747" width="382" height="2"/>
+                                <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="T4t-pk-RZh" firstAttribute="leading" secondItem="6rI-NH-lkM" secondAttribute="leading" constant="16" id="2Ps-is-LM6"/>
+                            <constraint firstItem="Aqt-ro-RAm" firstAttribute="top" secondItem="T4t-pk-RZh" secondAttribute="bottom" constant="20" id="2v0-GW-TV9"/>
+                            <constraint firstItem="6rI-NH-lkM" firstAttribute="trailing" secondItem="T4t-pk-RZh" secondAttribute="trailing" constant="16" id="5ba-R1-KDw"/>
+                            <constraint firstItem="Zcm-te-H2x" firstAttribute="bottom" secondItem="6rI-NH-lkM" secondAttribute="bottom" constant="-50" id="TIO-gR-A7k"/>
+                            <constraint firstItem="Zcm-te-H2x" firstAttribute="trailing" secondItem="6rI-NH-lkM" secondAttribute="trailing" constant="-16" id="WMT-ff-74o"/>
+                            <constraint firstItem="T4t-pk-RZh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6rI-NH-lkM" secondAttribute="top" constant="20" id="bQ4-sS-K86"/>
+                            <constraint firstItem="Zcm-te-H2x" firstAttribute="top" secondItem="Aqt-ro-RAm" secondAttribute="bottom" constant="8" id="mrm-kr-CH0"/>
+                            <constraint firstItem="T4t-pk-RZh" firstAttribute="top" secondItem="6rI-NH-lkM" secondAttribute="top" priority="250" constant="20" id="qr0-yS-hTf"/>
+                            <constraint firstItem="6rI-NH-lkM" firstAttribute="trailing" secondItem="Aqt-ro-RAm" secondAttribute="trailing" constant="16" id="rh3-RS-zv9"/>
+                            <constraint firstItem="Aqt-ro-RAm" firstAttribute="leading" secondItem="6rI-NH-lkM" secondAttribute="leading" constant="16" id="tQe-qj-Vdb"/>
+                            <constraint firstItem="Zcm-te-H2x" firstAttribute="leading" secondItem="6rI-NH-lkM" secondAttribute="leading" constant="16" id="uhL-vu-EeQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6rI-NH-lkM"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ILScanner" largeTitleDisplayMode="always" id="JF1-YM-ORU"/>
+                    <connections>
+                        <outlet property="progressIndicator" destination="Aqt-ro-RAm" id="X1v-dT-9oD"/>
+                        <outlet property="scanButton" destination="Zcm-te-H2x" id="SRd-yw-0Wf"/>
+                        <outlet property="textView" destination="cTh-Uf-9SH" id="imw-uf-QMt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xoV-fw-AHR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1021.7391304347827" y="533.70535714285711"/>
+        </scene>
+    </scenes>
+</document>
