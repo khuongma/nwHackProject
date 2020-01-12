@@ -1,21 +1,21 @@
+////
+////  ContentView.swift
+////  nwHackProject
+////
+////  Created by Minjae Shin on 2020-01-11.
+////  Copyright © 2020 Minjae Shin. All rights reserved.
+////
 //
-//  ContentView.swift
-//  nwHackProject
+//import SwiftUI
 //
-//  Created by Minjae Shin on 2020-01-11.
-//  Copyright © 2020 Minjae Shin. All rights reserved.
+//struct ContentView: View {
+//    var body: some View {
+//        Text("Hello, World!")
+//    }
+//}
 //
-
-import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        Text("Hello, World!")
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}

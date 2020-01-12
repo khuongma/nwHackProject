@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50D4239B4FBD1583394EA28F /* Pods_nwHackProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813F64EDB3006C3A4596395C /* Pods_nwHackProjectTests.framework */; };
 		A05339D623CA832C00482D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05339D523CA832C00482D19 /* AppDelegate.swift */; };
 		A05339D823CA832C00482D19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05339D723CA832C00482D19 /* SceneDelegate.swift */; };
 		A05339DA23CA832C00482D19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05339D923CA832C00482D19 /* ContentView.swift */; };
@@ -15,6 +16,9 @@
 		A05339E223CA832E00482D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05339E023CA832E00482D19 /* LaunchScreen.storyboard */; };
 		A05339ED23CA832F00482D19 /* nwHackProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05339EC23CA832F00482D19 /* nwHackProjectTests.swift */; };
 		A05339F823CA832F00482D19 /* nwHackProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05339F723CA832F00482D19 /* nwHackProjectUITests.swift */; };
+		A0533A0923CAB0AF00482D19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0533A0823CAB0AF00482D19 /* ViewController.swift */; };
+		C3C4EEA6FC64262095214F45 /* Pods_nwHackProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A60808C5595DA7DC89BE1D /* Pods_nwHackProject.framework */; };
+		D3B5A5A8F4A4D717F3138A3B /* Pods_nwHackProject_nwHackProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9F6A33C86BAC45D2FFAFD3 /* Pods_nwHackProject_nwHackProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DC1F5D864D5F343E554F373 /* Pods-nwHackProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nwHackProject.release.xcconfig"; path = "Target Support Files/Pods-nwHackProject/Pods-nwHackProject.release.xcconfig"; sourceTree = "<group>"; };
+		3B9F6A33C86BAC45D2FFAFD3 /* Pods_nwHackProject_nwHackProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nwHackProject_nwHackProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C8DD3B1D2E2E5590B612A5 /* Pods-nwHackProject-nwHackProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nwHackProject-nwHackProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-nwHackProject-nwHackProjectUITests/Pods-nwHackProject-nwHackProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		75AE6EFC6A6FE8B102A2E9EA /* Pods-nwHackProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nwHackProject.debug.xcconfig"; path = "Target Support Files/Pods-nwHackProject/Pods-nwHackProject.debug.xcconfig"; sourceTree = "<group>"; };
+		813F64EDB3006C3A4596395C /* Pods_nwHackProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nwHackProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05339D223CA832C00482D19 /* nwHackProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nwHackProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05339D523CA832C00482D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A05339D723CA832C00482D19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		A05339F323CA832F00482D19 /* nwHackProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nwHackProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05339F723CA832F00482D19 /* nwHackProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nwHackProjectUITests.swift; sourceTree = "<group>"; };
 		A05339F923CA832F00482D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0533A0823CAB0AF00482D19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF09862939C6B4ADAA8275A4 /* Pods-nwHackProject-nwHackProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nwHackProject-nwHackProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-nwHackProject-nwHackProjectUITests/Pods-nwHackProject-nwHackProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D213998221C50DFC31E5CF13 /* Pods-nwHackProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nwHackProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-nwHackProjectTests/Pods-nwHackProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1A60808C5595DA7DC89BE1D /* Pods_nwHackProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nwHackProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBEB5EB34E448C24C15A26F /* Pods-nwHackProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nwHackProjectTests.release.xcconfig"; path = "Target Support Files/Pods-nwHackProjectTests/Pods-nwHackProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C4EEA6FC64262095214F45 /* Pods_nwHackProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D4239B4FBD1583394EA28F /* Pods_nwHackProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B5A5A8F4A4D717F3138A3B /* Pods_nwHackProject_nwHackProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				A05339EB23CA832E00482D19 /* nwHackProjectTests */,
 				A05339F623CA832F00482D19 /* nwHackProjectUITests */,
 				A05339D323CA832C00482D19 /* Products */,
+				EFE3E59EA4A2FD7B33429BF7 /* Pods */,
+				FE6149E460B5E90DC43C453B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +120,10 @@
 			children = (
 				A05339D523CA832C00482D19 /* AppDelegate.swift */,
 				A05339D723CA832C00482D19 /* SceneDelegate.swift */,
+				A0533A0823CAB0AF00482D19 /* ViewController.swift */,
 				A05339D923CA832C00482D19 /* ContentView.swift */,
 				A05339DB23CA832E00482D19 /* Assets.xcassets */,
+				A0533A0523CAAE3C00482D19 /* vision */,
 				A05339E023CA832E00482D19 /* LaunchScreen.storyboard */,
 				A05339E323CA832E00482D19 /* Info.plist */,
 				A05339DD23CA832E00482D19 /* Preview Content */,
@@ -136,6 +157,36 @@
 			path = nwHackProjectUITests;
 			sourceTree = "<group>";
 		};
+		A0533A0523CAAE3C00482D19 /* vision */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vision;
+			sourceTree = "<group>";
+		};
+		EFE3E59EA4A2FD7B33429BF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75AE6EFC6A6FE8B102A2E9EA /* Pods-nwHackProject.debug.xcconfig */,
+				2DC1F5D864D5F343E554F373 /* Pods-nwHackProject.release.xcconfig */,
+				CF09862939C6B4ADAA8275A4 /* Pods-nwHackProject-nwHackProjectUITests.debug.xcconfig */,
+				68C8DD3B1D2E2E5590B612A5 /* Pods-nwHackProject-nwHackProjectUITests.release.xcconfig */,
+				D213998221C50DFC31E5CF13 /* Pods-nwHackProjectTests.debug.xcconfig */,
+				FCBEB5EB34E448C24C15A26F /* Pods-nwHackProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE6149E460B5E90DC43C453B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1A60808C5595DA7DC89BE1D /* Pods_nwHackProject.framework */,
+				3B9F6A33C86BAC45D2FFAFD3 /* Pods_nwHackProject_nwHackProjectUITests.framework */,
+				813F64EDB3006C3A4596395C /* Pods_nwHackProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A05339FC23CA832F00482D19 /* Build configuration list for PBXNativeTarget "nwHackProject" */;
 			buildPhases = (
+				6B7469ABCB69BBA35EBA52F0 /* [CP] Check Pods Manifest.lock */,
 				A05339CE23CA832C00482D19 /* Sources */,
 				A05339CF23CA832C00482D19 /* Frameworks */,
 				A05339D023CA832C00482D19 /* Resources */,
+				B9DA1292E5D8D126BB462C82 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A05339FF23CA832F00482D19 /* Build configuration list for PBXNativeTarget "nwHackProjectTests" */;
 			buildPhases = (
+				3EA1795706D9DC84EBEA3EEC /* [CP] Check Pods Manifest.lock */,
 				A05339E423CA832E00482D19 /* Sources */,
 				A05339E523CA832E00482D19 /* Frameworks */,
 				A05339E623CA832E00482D19 /* Resources */,
@@ -178,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0533A0223CA832F00482D19 /* Build configuration list for PBXNativeTarget "nwHackProjectUITests" */;
 			buildPhases = (
+				81B7717A363510141E75EDB1 /* [CP] Check Pods Manifest.lock */,
 				A05339EF23CA832F00482D19 /* Sources */,
 				A05339F023CA832F00482D19 /* Frameworks */,
 				A05339F123CA832F00482D19 /* Resources */,
+				363092A39B4159176EC87118 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,11 +318,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		363092A39B4159176EC87118 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nwHackProject-nwHackProjectUITests/Pods-nwHackProject-nwHackProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nwHackProject-nwHackProjectUITests/Pods-nwHackProject-nwHackProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nwHackProject-nwHackProjectUITests/Pods-nwHackProject-nwHackProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EA1795706D9DC84EBEA3EEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nwHackProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B7469ABCB69BBA35EBA52F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nwHackProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81B7717A363510141E75EDB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nwHackProject-nwHackProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9DA1292E5D8D126BB462C82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nwHackProject/Pods-nwHackProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nwHackProject/Pods-nwHackProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nwHackProject/Pods-nwHackProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A05339CE23CA832C00482D19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0533A0923CAB0AF00482D19 /* ViewController.swift in Sources */,
 				A05339D623CA832C00482D19 /* AppDelegate.swift in Sources */,
 				A05339D823CA832C00482D19 /* SceneDelegate.swift in Sources */,
 				A05339DA23CA832C00482D19 /* ContentView.swift in Sources */,
@@ -432,17 +592,19 @@
 		};
 		A05339FD23CA832F00482D19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AE6EFC6A6FE8B102A2E9EA /* Pods-nwHackProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"nwHackProject/Preview Content\"";
+				DEVELOPMENT_TEAM = U7T8C9G7RR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = nwHackProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = minjae.nwHackProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minjae.nwHackProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,17 +613,19 @@
 		};
 		A05339FE23CA832F00482D19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC1F5D864D5F343E554F373 /* Pods-nwHackProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"nwHackProject/Preview Content\"";
+				DEVELOPMENT_TEAM = U7T8C9G7RR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = nwHackProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = minjae.nwHackProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minjae.nwHackProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,6 +634,7 @@
 		};
 		A0533A0023CA832F00482D19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D213998221C50DFC31E5CF13 /* Pods-nwHackProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +656,7 @@
 		};
 		A0533A0123CA832F00482D19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBEB5EB34E448C24C15A26F /* Pods-nwHackProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +678,7 @@
 		};
 		A0533A0323CA832F00482D19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF09862939C6B4ADAA8275A4 /* Pods-nwHackProject-nwHackProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +698,7 @@
 		};
 		A0533A0423CA832F00482D19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C8DD3B1D2E2E5590B612A5 /* Pods-nwHackProject-nwHackProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

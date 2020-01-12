@@ -1,0 +1,6 @@
+framework module Pods_nwHackProject_nwHackProjectUITests {
+  umbrella header "Pods-nwHackProject-nwHackProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
