@@ -4,10 +4,7 @@ import time
 
 import json
 
-
-
 ProductsNum = 8
-
 
 start_time = time.time()
 
